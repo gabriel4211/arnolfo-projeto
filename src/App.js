@@ -3,16 +3,14 @@ import logo from './logo.png';
 import barra from './barra.png';
 import { Collapse } from 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/js/src/collapse';
-import { CloudArrowDown, ArrowDownCircle, CloudDownload, Heart, ChatFill } from 'react-bootstrap-icons';
+import { CloudArrowDown, mail , ArrowDownCircle, CloudDownload, Heart, ChatFill } from 'react-bootstrap-icons';
 let url = "";
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <img src={barra} class="d-block w-150 barra" />
-
       <div class="container-sm text-white text-center px-4">
         <img src={logo} class="logo" />    
         <div class="container-sm text-white text-center px-4">
@@ -27,25 +25,36 @@ function App() {
          <br>
          </br>
          <p class="width-350 mx-auto">Este projeto foi desenvolvido com o objetivo de: abrir portas e caminhos, neste projeto é contido os primeiros passos de programação para o aluno que deseja seguir a carreira de Ciências da Computação, Engenharia de Software, ou outros.</p>
-         <p class="width-350 mx-auto mb-4">Devo adverter: <strong>essa não é uma documentação adminstradas por professores do Arnolfo Azevedo, 
+         <p class="width-350 mx-auto mb-4">Devo adverter: <strong>essa não é uma documentação administradas por professores do Arnolfo Azevedo, 
             isto é um curso livre com todos os direitos reservados pelo autor, segundo a lei n. 9.610, de 19 de fevereiro de 1998
- </strong></p>
+            </strong></p>
 
- <div class="card bg-light text-dark width-350 mx-auto"> 
+            <div class="card bg-light text-dark width-350 mx-auto"> 
             <div class="card-header mt-2">
                 <h6>Evite frustrações lendo estes itens</h6>
 
-                <a data-bs-toggle="collapse" href="#faq" class="fs-3 mt-0 collapsed" aria-expanded="false">
+            <a data-bs-toggle="collapse" href="#faq" class="fs-3 mt-0 collapsed" aria-expanded="false">
                   <ArrowDownCircle></ArrowDownCircle> 
               </a>
               
-              <div class="card-body collapse" id="faq">
+            <div class="card-body collapse" id="faq">
             <p class="card-text">Qualquer uso ou acesso indevido á documentação está sujeito a tomada de ações imediatas.</p>
             <p class="card-text">As apostilas e arquivos desta documentação são livres (gratuitos), eles não devem de hipotese alguma serem comercializados ou vendidos, o Arnolfo Azevedo não se responsabiliza.</p>
-                <p class="card-text">O uso desta documentação não é garantido via qualquer tipo de pagamento. Poupe seu tempo ao tentar enviar uma proposta de uso paga.</p>
-                <p class="card-text">O único/principal objetivo deste projeto é abrir portas/caminhos para alunos interessados em 
+            <p class="card-text">O uso desta documentação não é garantido via qualquer tipo de pagamento. Poupe seu tempo ao tentar enviar uma proposta de uso paga.</p>
+            <p class="card-text">O único/principal objetivo deste projeto é abrir portas/caminhos para alunos interessados em 
                     tecnologia e programação, esse é o primeiro passo.</p>
-                    <a href="" target="_blank" class="btn btn-light button-download px-3 py-2"> <br></br>
+                    <h2>Baixe agora mesmo</h2>
+                    <span>Ainda, os arquivos são liberados em nuvem (OneDrive), isso significa que você precisa baixa-los para poder
+                      ver, ler, e praticar. Logo em breve, estaremos implementando uma plataforma para que
+                      você não precise instalar nenhum arquivo para assistir ás aulas. 
+                    </span>
+                    <h2>Faça parte do projeto</h2>
+                    <span>Você também pode fazer parte deste projeto, ele é só o começo de algo grande para os estudantes.
+                      Se candidate como design, ou programador, ou até mesmo marketing (mesmo que você não tenha experiência: uma possibilidade
+                      de você aprender durante as jantas da escola pode ser uma ideia tentadora)
+                      Para falar comigo, basta clicar <a href="https://www.instagram.com/_dias17y/">aqui</a>
+                    </span>
+            <a href="" target="_blank" class="btn btn-light button-download px-3 py-2"> <br></br>
             
             <h4 class="mb-0 text-dark">
               <CloudDownload></CloudDownload>

@@ -91,3 +91,31 @@ body {
 .d-inline{
   text-decoration: none;
 }
+.form-group{
+  align-items: center;
+  top: 0;
+  margin: auto;
+  display: block; 
+  display: flex;
+
+}
+.send-btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 200px;
+  margin: 10px;
+  border: 0;
+}
+.send-btn:hover{
+  background-color: rgb(75, 62, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 200px;
+  margin: 10px;
+  transition: 0.5s;
+  border: 0;
+
+  }
