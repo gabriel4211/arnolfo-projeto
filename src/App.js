@@ -6,13 +6,6 @@ import 'bootstrap/js/src/collapse';
 import { CloudArrowDown, ArrowDownCircle, CloudDownload, Heart, ChatFill } from 'react-bootstrap-icons';
 let url = "";
 
-function makeFile() {
-  return {
-   mime: 'text/plain',
-   filename: './Arnolfo Azevedo - HTML.zip',
-   contents: 'all of the exports',
-  }
-};
 
 function App() {
   return (
@@ -27,7 +20,7 @@ function App() {
          href={url} class="btn btn-light button-download px-3 py-2">
           <h4 class="mb-0 text-dark">
                 <ChatFill></ChatFill>
-                <span class="d-inline"> <em></em>Fale comigo</span>
+                <a href="https://www.instagram.com/_dias17y/" class="d-inline"> <em></em>Fale comigo</a>
             </h4>
          </a> <br>
          </br>
