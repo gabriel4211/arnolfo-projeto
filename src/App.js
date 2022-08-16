@@ -49,7 +49,7 @@ function App() {
             
             <h4 class="mb-0 text-dark">
               <CloudDownload></CloudDownload>
-                <a href="#" class="d-inline"> Seguir documentação</a>
+                <a href="https://seducsp-my.sharepoint.com/:u:/g/personal/00001088944243sp_aluno_educacao_sp_gov_br/ERzghSwuse9Ksm_woBAgWHoB_lhqk8Vr_qEGwS1GLcHTcQ?e=r8Ctwr" class="d-inline"> Baixar arquivos</a>
                 <br></br>
             </h4>
         </a>     
